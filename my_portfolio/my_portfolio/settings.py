@@ -29,8 +29,7 @@ DEBUG = config("DEBUG", default=False, cast=bool)
 
 ALLOWED_HOSTS = config(
     "ALLOWED_HOSTS",
-    'my-portfolio-86x2.onrender.com',
-    default="localhost,127.0.0.1",
+    default="my-portfolio-86x2.onrender.com,localhost,127.0.0.1",
     cast=lambda v: v.split(",")
 )
 
