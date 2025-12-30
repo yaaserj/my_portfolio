@@ -1,0 +1,4 @@
+DJANGO_SECRET_KEY=django-insecure-!j*0x1f79ji2$2%(te8chou%c0*hwv^=91!%nk$w)utprsv@13
+DEBUG=True
+ALLOWED_HOSTS=localhost,127.0.0.1
+
